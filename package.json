@@ -1,0 +1,43 @@
+{
+  "name": "react-tea-boilerplate",
+  "version": "1.0.0",
+  "description": "A stage striking utility for Super Smash Bros",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production parcel build ./src/index.html",
+    "start": "NODE_ENV=development parcel serve ./src/index.html",
+    "test": "NODE_ENV=test tape ./src/**/*.test.js | tnyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley2/react-tea-boilerplate.git"
+  },
+  "author": "Tony Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/react-tea-boilerplate/issues"
+  },
+  "homepage": "https://github.com/abradley2/react-tea-boilerplate#readme",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "parcel-bundler": "^1.10.3",
+    "tap-nyan": "^1.1.0",
+    "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "@abradley2/url-change-event": "^1.0.0",
+    "path-to-regexp": "^2.4.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-hyperscript": "^3.2.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-loop": "^4.5.2"
+  }
+}
